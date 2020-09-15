@@ -46,7 +46,7 @@ function Stopwatch(elem) {
             milliseconds = '0' + milliseconds;
         }
 
-        var result =  seconds + ' . ' + milliseconds;
+        var result =  seconds + ' : ' + milliseconds;
 
         return result;
     }
